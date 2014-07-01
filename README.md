@@ -17,12 +17,10 @@ How to use it.<br>
 	* b) in the file find function body_content()
 	* c) Change the order from <br>
 			`	$this->sidepanel();
-			<br>
-               $this->main();`
+			    $this->main();`
                 
 		to 
 	     	`   $this->main();
-
 				$this->sidepanel();`
 
 
