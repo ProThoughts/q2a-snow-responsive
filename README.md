@@ -1,4 +1,4 @@
-# Responsive Snow Theme< #
+# Responsive Snow Theme #
 
 The following css file works with Snow theme and designed to be responsive on Iphone 4,5 and Nexus 5 phones in the potrait mode.
 I will be making further changes and pushing them to the repo.
@@ -13,11 +13,11 @@ How to use it.<br>
 	* a) Open qa-include/qa-theme-base.php
 	* b) in the file find function body_content()
 	* c) Change the order from 
-			>	$this->sidepanel();
-            >   $this->main();
+			`	$this->sidepanel();
+               $this->main();`
                 
 		to 
-	     	>   $this->main();
-			>	$this->sidepanel();
+	     	`   $this->main();
+				$this->sidepanel();`
 
 
