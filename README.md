@@ -1,5 +1,8 @@
 # Responsive Snow Theme #
 
+Demo available at http://www.gmatxchange.com
+
+
 The following css file works with Snow theme and designed to be responsive on Iphone 4,5 and Nexus 5 phones in the potrait mode.
 I will be making further changes and pushing them to the repo.
 
