@@ -15,12 +15,14 @@ How to use it.<br>
 * 6) Core Changes/Hacks to correct the side-panel
 	* a) Open qa-include/qa-theme-base.php
 	* b) in the file find function body_content()
-	* c) Change the order from 
+	* c) Change the order from <br>
 			`	$this->sidepanel();
+			<br>
                $this->main();`
                 
 		to 
 	     	`   $this->main();
+
 				$this->sidepanel();`
 
 
